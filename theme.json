@@ -1,7 +1,8 @@
 {
     "name": "Theme MOVIATE",
     "description": "Theme for the MOVIATE website",
-    "author": "Larsen",
+    "author": "7R5N",
+    "version": "1.0.0",
     "license": "MIT",
     "tooltips": {
         "+main": "The main content of the page"
