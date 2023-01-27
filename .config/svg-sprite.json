@@ -1,0 +1,10 @@
+{
+  "dest": "_img",
+  "log": "debug",
+  "mode": {
+    "symbol": {
+      "dest": "./",
+      "sprite": "octicons_.svg"
+    }
+  }
+}

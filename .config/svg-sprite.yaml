@@ -1,0 +1,12 @@
+plugins:
+  - removeViewBox: false
+  - removeDimensions: true
+  - addAttributesToSVGElement:
+      attributes:
+        - fill: currentColor
+  - removeAttrs:
+      attrs:
+        - fill
+        - fill-rule
+        - stroke
+        - stroke-width

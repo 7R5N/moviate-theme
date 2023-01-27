@@ -1,0 +1,9 @@
+plugins:
+  - removeViewBox: false
+  - removeDimensions: true
+  - addAttributesToSVGElement:
+      attributes:
+        - fill: currentColor
+  - removeAttrs:
+      attrs:
+        - xmlns
