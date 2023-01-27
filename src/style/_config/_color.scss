@@ -1,0 +1,25 @@
+//
+// SOHO Company Website
+//
+// Color Variables
+//
+
+
+:root {
+	--color-highlight:         #{$color-highlight};
+	--color-primary:           #{$color-primary};
+	--color-secondary:         #{$color-secondary};
+
+	--color-background:        #{$color-background};
+	--color-background--transparent: transparentize(#{$color-background}, 0.5);
+
+	--color-text:              #{$color-text};
+	--color-text--blazed:      #{$color-text--blazed};
+	--color-text--highlighted: #{$color-text--highlighted};
+	--color-text--muted:       #{$color-text--muted};
+	--color-text--error:       #{$color-danger};
+
+	--color-border:            #{$color-border};
+
+	--color-box-shadow:        transparentize(#{$black--dark}, 0.5);
+}

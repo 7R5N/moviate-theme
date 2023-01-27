@@ -1,0 +1,38 @@
+//
+// Moviate Website
+//
+// General Styles
+//
+
+
+html {
+	font-size: 1em;
+
+	@media (min-width: $breakpoint) {
+		font-size: $font-size-root;
+	}
+}
+
+body {
+	background-color: var(--color-background);
+	color: var(--color-text);
+	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: inherit;
+	font-weight: $font-weight-normal;
+	line-height: $line-height;
+//	margin: 0 ($grid-margin * 3) 0 ($grid-margin * 3);
+	min-width: calc(768px - (2 * $grid-margin));
+
+	display: flex;
+	flex-direction: column;
+	min-height: calc(100vh - #{$grid-gap});
+}
+
+a,
+.link {
+	color: var(--color-text--blazed);
+
+	&:hover {
+		color: var(--color-text--highlighted);
+	}
+}

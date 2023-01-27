@@ -1,0 +1,114 @@
+/*
+ * Moviate Website
+ *
+ * The Styles
+ */
+:root {
+  --color-highlight: hsl(30deg, 90%, 55%);
+  --color-primary: hsl(30deg, 2%, 95%);
+  --color-secondary: hsl(30deg, 2%, 50%);
+  --color-background: hsl(30deg, 2%, 85%);
+  --color-background--transparent: transparentize(hsl(30deg, 2%, 85%), 0.5);
+  --color-text: hsl(30deg, 2%, 5%);
+  --color-text--blazed: hsl(30deg, 2%, 15%);
+  --color-text--highlighted: hsl(30deg, 2%, 95%);
+  --color-text--muted: hsl(30deg, 2%, 50%);
+  --color-text--error: hsl(348deg, 75%, 55%);
+  --color-border: hsl(30deg, 2%, 85%);
+  --color-box-shadow: transparentize(hsl(30deg, 2%, 0%), 0.5);
+}
+
+:root {
+  --layout-column-count: $layout-column-count;
+} /* Roboto Slab Medium */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url(packages/custom/moviate/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+/* Roboto Slab Regular */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url(packages/custom/moviate/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+/* Roboto Slab Light */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url(packages/custom/moviate/fonts/Roboto_Slab/static/RobotoSlab-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+html {
+  font-size: 1em;
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: inherit;
+  font-weight: 300;
+  line-height: 1.25;
+  min-width: calc(768px - 6.25rem);
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 3.125rem);
+}
+
+a,
+.link {
+  color: var(--color-text--blazed);
+}
+a:hover,
+.link:hover {
+  color: var(--color-text--highlighted);
+}
+
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+.icon--small {
+  display: block;
+  height: 16px;
+  width: 16px;
+}
+
+.header {
+  align-items: flex-end;
+  background-color: var(--color-background);
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text--blazed);
+  display: flex;
+  flex-grow: 0;
+  justify-content: space-between;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+}
+.header__title {
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 0;
+}
+.header__title em {
+  color: var(--color-text--highlighted);
+  display: inline-block;
+  margin-left: -0.05em;
+  margin-right: -0.35em;
+}
+.header__title em::after {
+  content: "*";
+  display: inline-block;
+  transform: translate(-0.1em, -0.2em);
+}
+
+/*# sourceMappingURL=style.css.map */

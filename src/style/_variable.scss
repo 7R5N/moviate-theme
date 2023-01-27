@@ -1,0 +1,84 @@
+//
+// SOHO Company Website
+//
+// Variable
+//
+
+
+// Colors
+
+$corporate:                    hsl(144, 90%, 55%) !default;
+$corporate--dark:              hsl(144, 80%, 50%) !default;
+$corporate--light:             hsl(144, 100%, 60%) !default;
+$black:                        hsl(144, 2%, 5%) !default;
+$black--dark:                  hsl(144, 2%, 0%) !default;
+$black--light:                 hsl(144, 2%, 15%) !default;
+$grey:                         hsl(144, 2%, 50%) !default;
+$grey--dark:                   hsl(144, 2%, 40%) !default;
+$grey--light:                  hsl(144, 2%, 60%) !default;
+$white:                        hsl(144, 2%, 95%) !default;
+$white--dark:                  hsl(144, 2%, 85%) !default;
+$white--light:                 hsl(144, 2%, 100%) !default;
+
+$color-highlight:              $corporate !default;
+$color-primary:                $white !default;
+$color-secondary:              $grey !default;
+
+$color-background:             $black !default;
+
+$color-text:                   $white !default;
+$color-text--blazed:           $white--light !default;
+$color-text--highlighted:      $color-primary !default;
+$color-text--muted:            $grey !default;
+
+$color-border:                 $black--light !default;
+
+// Feedback
+$color-success:                #28a745 !default;
+$color-info:                   #17a2b8 !default;
+$color-warning:                #ffc107 !default;
+$color-danger:                 hsl(348, 75%, 55%) !default;
+
+
+// Measurement
+
+$margin:                       1.5625rem !default;
+$padding:                      1.5625rem !default;
+
+//$grid-unit:                    3.125rem !default;
+$grid-column-count:            12 !default;
+$grid-gap:                     3.125rem !default;
+$grid-margin:                  $grid-gap !default;
+$grid-layout-width:            calc(100vw - ($grid-margin * 2)) !default;
+$grid-column-width:            calc($grid-layout-width - ($grid-gap * ($grid-column-count + 1))) !default;
+
+
+// Layout
+
+$breakpoint:                   992px !default;
+$breakpoint-from:              $breakpoint !default;
+$breakpoint-until:             ($breakpoint - 1) !default;
+
+
+// Typography
+
+$font-size-root:               1.25vw !default;
+$line-height:                  1.25 !default;
+
+$font-size-text:               1rem !default;
+$font-size-small:              0.75rem !default;
+$font-size-lead:               1.25rem !default;
+$font-size-headline:           1.5rem !default;
+$font-size-display:            4rem !default;
+
+$font-weight-light:            200 !default;
+$font-weight-normal:           300 !default;
+$font-weight-medium:           400 !default;
+$font-weight-bold:             500 !default;
+
+
+// Design Elements
+
+$border-width:                 1px !default;
+
+$box-shadow:                   0 8px 64px -16px var(--color-box-shadow) !default;

@@ -1,0 +1,32 @@
+{
+  "name": "moviate",
+  "version": "1.0.0",
+  "description": "Theme for Moviate Website",
+  "main": "template.php",
+  "dependencies": {
+    "@primer/octicons": "^17.5.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "copyfiles": "^2.4.1",
+    "postcss-cli": "^10.0.0",
+    "sass": "^1.55.0",
+    "sass-mq": "^6.0.0",
+    "svg-sprite": "^2.0.0"
+  },
+  "scripts": {
+    "build:css": "postcss css/style.css --use autoprefixer -b 'last 2 versions' -replace \"css/style.css\"",
+    "build:icon-sprite": "svg-sprite --config .config/svg-sprite.json lib/octicons/*.svg",
+    "build:sass": "sass src/style/style.scss css/style.css --source-map",
+    "copy:octicons": "copyfiles --flat node_modules/@primer/octicons/build/svg/*.svg lib/octicons",
+    "install": "npm run copy:octicons && npm run build:icon-sprite",
+    "start": "npm run watch:sass",
+    "watch:sass": "npm run build:sass -- --watch --source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7R5N/moviate-theme.git"
+  },
+  "author": "Lars Fuchs, Düsseldorf, Germany",
+  "license": "ISC"
+}

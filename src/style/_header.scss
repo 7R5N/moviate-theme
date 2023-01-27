@@ -1,0 +1,40 @@
+//
+// Moviate Website
+//
+// Styles for HEADER
+//
+
+
+.header {
+	align-items: flex-end;
+	background-color: var(--color-background);
+	border-bottom: $border-width solid var(--color-border);
+	color: var(--color-text--blazed);
+	display: flex;
+	flex-grow: 0;
+	justify-content: space-between;
+	padding-bottom: $padding;
+	padding-top: $padding;
+
+	&__logo {
+	}
+
+	&__title {
+		font-size: $font-size-display;
+		font-weight: $font-weight-normal;
+		margin: 0;
+
+		em {
+			color: var(--color-text--highlighted);
+			display: inline-block;
+			margin-left: -0.05em;
+			margin-right: -0.35em;
+
+			&::after {
+				content: '*';
+				display: inline-block;
+				transform: translate(-0.1em, -0.2em);
+			}
+		}
+	}
+}

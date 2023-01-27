@@ -1,0 +1,26 @@
+/*
+ * Moviate Website
+ *
+ * The Styles
+ */
+
+
+// Setup SASS
+@use 'sass:color';
+@use "sass:math";
+
+// Custom Overrides
+@import 'variable--custom';
+
+@import 'variable';
+//@import 'mixin';
+
+@import '_config/color';
+@import '_config/layout';
+
+@import 'font';
+@import 'general';
+@import 'typography';
+@import 'icon';
+
+@import 'header';

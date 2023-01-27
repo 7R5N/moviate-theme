@@ -1,0 +1,32 @@
+//
+// Moviate Website
+//
+// Load Web Fonts
+//
+
+
+@charset "UTF-8";
+
+/* Roboto Slab Medium */
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url(packages/custom/moviate/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf) format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* Roboto Slab Regular */
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url(packages/custom/moviate/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Roboto Slab Light */
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url(packages/custom/moviate/fonts/Roboto_Slab/static/RobotoSlab-Light.ttf) format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Theme MOVIATE",
+    "description": "Theme for the MOVIATE website",
+    "author": "Larsen",
+    "license": "MIT",
+    "tooltips": {
+        "+main": "The main content of the page"
+    }
+}

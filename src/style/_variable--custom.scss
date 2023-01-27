@@ -1,0 +1,45 @@
+//
+// Moviate Website
+//
+// Custom Variable
+//
+
+
+// Colors
+
+$corporate:                    hsl(30, 90%, 55%);
+$corporate--dark:              hsl(30, 80%, 50%);
+$corporate--light:             hsl(30, 100%, 60%);
+$black:                        hsl(30, 2%, 5%);
+$black--dark:                  hsl(30, 2%, 0%);
+$black--light:                 hsl(30, 2%, 15%);
+$grey:                         hsl(30, 2%, 50%);
+$grey--dark:                   hsl(30, 2%, 40%);
+$grey--light:                  hsl(30, 2%, 60%);
+$white:                        hsl(30, 2%, 95%);
+$white--dark:                  hsl(30, 2%, 85%);
+$white--light:                 hsl(30, 2%, 100%);
+
+$color-background: $white--dark;
+
+$color-text: $black;
+$color-text--blazed: $black--light;
+
+$color-border: $white--dark;
+
+
+// Typography
+
+$font-size-root:               16px;
+
+
+// Measurement
+
+$margin:                       2vw;
+$padding:                      2vw;
+
+// $grid-unit:                    unset;
+// $grid-column-count:            12;
+// $grid-gap:                     1px;
+// $grid-column-width:            calc(100vw - ($grid-gap * ($grid-column-count + 1)) - ($grid-margin * 2)) !default;
+// $grid-margin:                  $grid-column-width;
