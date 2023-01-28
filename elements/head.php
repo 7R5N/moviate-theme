@@ -19,7 +19,7 @@
         <!-- script src="_scripts/libs.js" type="text/javascript"></script -->
 
         <!-- Global Styles -->
-        <link href="/packages/7r5n/moviate/css/style.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="../css/style.css" rel="stylesheet" type="text/css" media="screen">
 	</head>
 
 	<body>
