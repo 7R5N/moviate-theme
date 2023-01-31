@@ -1,3 +1,10 @@
+<?php
+	$themeRoot = dirname(__DIR__, 1);
+	$composer_json = file_get_contents($themeRoot . '/composer.json');
+	$decoded_json = json_decode($composer_json, false);
+	$themePath = '/packages/' . $decoded_json->name;
+?>
+
 <html lang="de-DE">
 
 	<head>
@@ -15,11 +22,11 @@
         <link href="favicon.ico" rel="alternate icon">
         <link href="safari-pinned-tab.svg" rel="mask-icon" color="#5bbad5">
 
-        <!-- Global Scripts -->
-        <!-- script src="_scripts/libs.js" type="text/javascript"></script -->
+        <!-- Theme Scripts -->
+        <!-- script src="<?php echo $themePath; ?>/js/libs.js" type="text/javascript"></script -->
 
-        <!-- Global Styles -->
-        <link href="/packages/7r5n/moviate-theme/css/style.css" rel="stylesheet" type="text/css" media="screen">
+        <!-- Theme Styles -->
+        <link href="<?php echo $themePath; ?>/css/style.css" rel="stylesheet" type="text/css" media="screen">
 	</head>
 
 	<body>
