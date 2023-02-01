@@ -6,17 +6,16 @@
 
 
 .header {
-	align-items: flex-end;
-	background-color: var(--color-background);
-	border-bottom: $border-width solid var(--color-border);
-	color: var(--color-text--blazed);
-	display: flex;
-	flex-grow: 0;
-	justify-content: space-between;
-	padding-bottom: $padding;
-	padding-top: $padding;
+
+
+	// Logo
 
 	&__logo {
+
+	}
+
+	&__link {
+
 	}
 
 	&__title {

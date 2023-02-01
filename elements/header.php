@@ -1,24 +1,22 @@
 
-<header class="page__header">
+<section class="page__header">
 
-	<div class="header">
-		<div class="header__logo">
+	<header class="header">
 
-			<a href="/" class="header__link--home">
-				<@~ with @{ imageLogo } ~@>
-					<img
+		<a href="/" class="header__link">
+			<@~ with @{ imageLogo } ~@>
+				<img class="header__logo"
 					src="<@ with @{ :file } { height: @{ logoHeight | def (40) } } @>@{ :fileResized }<@ end @>"
 					srcset="<@ with @{ :file } { height: @{ logoHeight | def (40) | *2 } } @>@{ :fileResized } 2x<@ end @>"
 					alt="@{ :basename }"
-					>
-				<@~ else ~@>
-					@{ brand | def (@{ sitename }) }
-				<@~ end ~@>
-			</a>
+				>xyxyxyxy
+			<@~ else ~@>
+				@{ brand | def (@{ sitename }) }
+			<@~ end ~@>
+		</a>
 
-		</div>
-	</div>
+	</header>
 
-	<@ elements/navigation.php @>
+	<@ navigation.php @>
 
-</header>
+</section>

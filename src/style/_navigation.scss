@@ -1,0 +1,25 @@
+//
+// Moviate Website
+//
+// Styles for NAVIGATION
+//
+
+
+.navigation {
+
+
+	// List
+
+	&__list {
+		display: flex;
+		list-style: none;
+	}
+
+	&__item {
+	}
+
+	&__link {
+		margin: $margin;
+		text-decoration: none;
+	}
+}

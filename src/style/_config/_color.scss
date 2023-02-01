@@ -12,6 +12,7 @@
 
 	--color-background:        #{$color-background};
 	--color-background--transparent: transparentize(#{$color-background}, 0.5);
+	--color-background--light: #{$color-background--light};
 
 	--color-text:              #{$color-text};
 	--color-text--blazed:      #{$color-text--blazed};

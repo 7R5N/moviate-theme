@@ -2,7 +2,7 @@
 		<#
 		The menu is based on a simple recursive snippet.
 		#>
-		<div class="menu">
+		<nav class="navigation">
 			<#
 			First, the recursive snippet is defined to create the navigation tree.
 			The snippet definition doesn't produce any output.
@@ -14,15 +14,15 @@
 				Only create a list in case there are any subpages.
 				#>
 				<@ if @{ :pagelistCount } @>
-					<ul class="menu-list">
+					<ul class="navigation__list">
 						<#
 						The 'foreach' statement initiates an iteration over all pages in the pagelist.
 						Note that the pagelist will be configured in a later step below
 						right before changing to the root context as the entry level of the tree.
 						#>
 						<@ foreach in pagelist @>
-							<li>
-								<a
+							<li class="navigation__item">
+								<a class="navigation__link"
 								<#
 								While iterating the list,
 								the page context changes automatically with every iteration.
@@ -68,4 +68,4 @@
 			<@ with '/' @>
 				<@ navigation @>
 			<@ end @>
-		</div>
+		</nav>

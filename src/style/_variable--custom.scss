@@ -20,12 +20,13 @@ $white:                        hsl(30, 2%, 95%);
 $white--dark:                  hsl(30, 2%, 85%);
 $white--light:                 hsl(30, 2%, 100%);
 
-$color-background: $white--dark;
+$color-background:             $white--dark;
+$color-background--light:      $white;
 
-$color-text: $black;
-$color-text--blazed: $black--light;
+$color-text:                   $black;
+$color-text--blazed:           $black--light;
 
-$color-border: $white--dark;
+$color-border:                 $white--dark;
 
 
 // Typography
@@ -38,8 +39,10 @@ $font-size-root:               16px;
 $margin:                       2vw;
 $padding:                      2vw;
 
-// $grid-unit:                    unset;
-// $grid-column-count:            12;
-// $grid-gap:                     1px;
-// $grid-column-width:            calc(100vw - ($grid-gap * ($grid-column-count + 1)) - ($grid-margin * 2)) !default;
-// $grid-margin:                  $grid-column-width;
+$grid-unit:                    unset;
+$grid-column-count:            12;
+$grid-gap:                     1px;
+$grid-margin:                  4vw;
+$grid-column-width:            calc(100vw - ($grid-gap * ($grid-column-count + 1)) - ($grid-margin * 2)) !default;
+$grid-layout-width:            calc(100vw - ($grid-margin * 2)) !default;
+$grid-margin:                  $grid-column-width;
