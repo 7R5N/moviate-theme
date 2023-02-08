@@ -4,7 +4,6 @@ such as the header, navbar and footer markup.
 #>
 <@ elements/head.php @>
 	<@ elements/header.php @>
-	<@ elements/navigation.php @>
 	<section class="section">
 		<div class="container">
 			<div class="columns is-8 is-variable">

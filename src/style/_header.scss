@@ -6,9 +6,8 @@
 
 
 .header {
-
-
-	// Logo
+	flex-basis: calc(($grid-column-width * 3) + ($grid-gap * 2));
+	padding: $padding--large $padding;
 
 	&__logo {
 

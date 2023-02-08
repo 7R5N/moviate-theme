@@ -1,3 +1,4 @@
+<?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
 
 		<#
 		The menu is based on a simple recursive snippet.
@@ -14,7 +15,7 @@
 				Only create a list in case there are any subpages.
 				#>
 				<@ if @{ :pagelistCount } @>
-					<ul class="navigation__list">
+					<ul class="navigation__items">
 						<#
 						The 'foreach' statement initiates an iteration over all pages in the pagelist.
 						Note that the pagelist will be configured in a later step below

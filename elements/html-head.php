@@ -15,7 +15,7 @@
         <meta name="theme-color" content="#36455d">
         <meta name="description" content="">
         <meta name="keywords" content="">
-        <meta name="author" content="wysiwyg* software design gmbh">
+        <meta name="author" content="Lars Fuchs, Düsseldorf, Germany">
 
         <title> Moviate – alles was zwei Räder hat </title>
         <link href="favicon.svg" rel="icon" type="image/svg+xml">

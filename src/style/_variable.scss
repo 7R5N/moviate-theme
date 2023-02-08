@@ -1,7 +1,7 @@
 //
 // SOHO Company Website
 //
-// Variable
+// Variables
 //
 
 
@@ -43,7 +43,13 @@ $color-danger:                 hsl(348, 75%, 55%) !default;
 // Measurement
 
 $margin:                       1.5625rem !default;
+$margin--negative:             calc($margin * -1) !default;
+$margin--small:                calc($margin / 2) !default;
+$margin--large:                calc($margin * 2) !default;
+$margin--small--negative:      calc($margin--small * -1) !default;
 $padding:                      1.5625rem !default;
+$padding--small:               calc($padding / 2) !default;
+$padding--large:               calc($padding *	 2) !default;
 
 $grid-unit:                    3.125rem !default;
 $grid-column-count:            12 !default;

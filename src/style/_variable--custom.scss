@@ -1,7 +1,7 @@
 //
 // Moviate Website
 //
-// Custom Variable
+// Custom Variables
 //
 
 
@@ -43,6 +43,5 @@ $grid-unit:                    unset;
 $grid-column-count:            12;
 $grid-gap:                     1px;
 $grid-margin:                  4vw;
-$grid-column-width:            calc(100vw - ($grid-gap * ($grid-column-count + 1)) - ($grid-margin * 2)) !default;
-$grid-layout-width:            calc(100vw - ($grid-margin * 2)) !default;
-$grid-margin:                  $grid-column-width;
+//$grid-layout-width:          calc(100vw - ($grid-margin * 2)) !default;
+//$grid-column-width:          calc(100vw - ($grid-gap * ($grid-column-count + 1)) - ($grid-margin * 2)) !default;

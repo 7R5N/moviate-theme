@@ -1,0 +1,21 @@
+//
+// SOHO Company Website
+//
+// Placeholder: Box Shadow
+//
+
+
+%shadow {
+	position: relative;
+
+	&::after {
+		bottom: 0;
+		box-shadow: 0 12px 24px -12px rgba($black, 0.125);
+		content: '';
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: -1;
+	}
+}

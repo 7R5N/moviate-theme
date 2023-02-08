@@ -13,7 +13,8 @@
 @import 'variable--custom';
 
 @import 'variable';
-//@import 'mixin';
+
+@import '_placeholder/shadow';
 
 @import '_config/color';
 @import '_config/layout';
@@ -23,6 +24,12 @@
 @import 'typography';
 @import 'icon';
 
-@import 'page';
+@import 'article';
 @import 'header';
 @import 'navigation';
+@import 'main';
+@import 'aside';
+@import 'footer';
+
+@import 'box';
+@import 'definition';

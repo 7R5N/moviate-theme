@@ -6,20 +6,21 @@
 
 
 .navigation {
-
-
-	// List
-
-	&__list {
-		display: flex;
-		list-style: none;
-	}
+	flex-basis: calc(($grid-column-width * 9) + ($grid-gap * 8));
+	padding: $padding--large $padding;
 
 	&__item {
+
+		&s {
+			display: flex;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
 	}
 
 	&__link {
-		margin: $margin;
+		padding: $padding;
 		text-decoration: none;
 	}
 }

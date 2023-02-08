@@ -1,0 +1,16 @@
+//
+// Moviate Website
+//
+// Styles for BOX
+//
+
+
+.box {
+	@extend %shadow;
+	background-color: var(--color-background--light);
+	padding: $padding;
+
+	&__title {
+		margin: 0;
+	}
+}

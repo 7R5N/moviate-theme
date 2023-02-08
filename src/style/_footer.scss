@@ -1,0 +1,38 @@
+//
+// Moviate Website
+//
+// Styles for FOOTER
+//
+
+
+.footer {
+	display: flex;
+	font-size: $font-size-small;
+	justify-content: space-between;
+
+	&__copyright {
+		margin: 0;
+	}
+
+	&__navigation {
+
+	}
+
+
+	// Sub Elements
+
+	&__item {
+
+		&s {
+			display: flex;
+			list-style: none;
+			margin: 0 $margin--small--negative 0 0;
+			padding: 0;
+		}
+	}
+
+	&__link {
+		margin: $margin--small--negative 0;
+		padding: $padding--small;
+	}
+}

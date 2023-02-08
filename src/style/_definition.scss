@@ -1,0 +1,21 @@
+//
+// Moviate Website
+//
+// Styles for DEFINITION
+//
+
+
+.definition {
+	display: grid;
+	gap: $margin--small;
+	grid-template-columns: 2fr 3fr;
+	margin: $margin--small 0;
+
+	&__attribute {
+
+	}
+
+	&__value {
+		margin-left: 0;
+	}
+}

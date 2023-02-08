@@ -1,0 +1,15 @@
+//
+// Moviate Website
+//
+// Styles for ASIDE
+//
+
+
+.aside {
+	display: flex;
+	flex-basis: calc(($grid-column-width * 3) + ($grid-gap * 2));
+	flex-direction: column;
+	gap: $grid-gap;
+	justify-content: flex-end;
+	order: 1;
+}

@@ -1,0 +1,43 @@
+//
+// Moviate Website
+//
+// Styles for ARTICLE
+//
+
+
+.article {
+	margin: $grid-margin;
+	position: relative;
+	z-index: 1;
+
+
+	// Header
+
+	&__header {
+		@extend %shadow;
+		align-items: flex-end;
+		background-color: var(--color-background--light);
+		color: var(--color-text--blazed);
+		display: flex;
+		flex-grow: 0;
+		gap: $grid-gap;
+		justify-content: space-between;
+		position: relative;
+	}
+
+
+	// Container
+
+	&__container {
+		display: flex;
+		gap: $grid-gap;
+		margin-top: $grid-gap;
+	}
+
+
+	// Footer
+
+	&__footer {
+		margin-top: $margin;
+	}
+}
