@@ -27,8 +27,12 @@ body {
 a,
 .link {
 	color: var(--color-text--blazed);
+	text-decoration-thickness: 0.5px;
+	text-underline-color: var(--color-text--blazed);
+	text-underline-offset: 0.2em;
 
 	&:hover {
 		color: var(--color-text--highlighted);
+		text-decoration-thickness: 1px;
 	}
 }

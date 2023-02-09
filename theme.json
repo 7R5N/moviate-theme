@@ -1,9 +1,22 @@
 {
-    "name": "Theme MOVIATE",
-    "description": "Theme for the MOVIATE website",
-    "author": "7R5N",
-    "version": "1.0.0",
-    "license": "MIT",
-    "tooltips": {
-    }
+  "name": "Theme MOVIATE",
+  "description": "Theme for the MOVIATE website",
+  "author": "7R5N",
+  "version": "1.0.0",
+  "license": "MIT",
+  "masks": {
+    "page": [
+      "imageLogo",
+      "logoHeight"
+    ],
+    "shared": [
+      "+main"
+    ]
+  },
+  "tooltips": {
+    "+main": "The main content of the page",
+    "brand": "In case there is no logo defined, this field can be used for any kind of markup like HTML or SVG to serve as the brand of the site",
+    "imageLogo": "The logo image",
+    "logoHeight": "The height of your logo"
+  }
 }

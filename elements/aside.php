@@ -64,20 +64,24 @@
 				</dt>
 				<dd class="definition__value">
 					Moviate<br>
-					Mittelbergstraße 4<br>
+					Mittelbergstr. 4<br>
 					88400 Biberach
 				</dd>
 				<dt class="definition__attribute">
 					Telefon
 				</dt>
 				<dd class="definition__value">
-					+49 (0) 7351 441563
+					<a href="tel:+497351441563">
+						+49 (0) 7351 441563
+					</a>
 				</dd>
 				<dt class="definition__attribute">
 					Telefax
 				</dt>
 				<dd class="definition__value">
-					+49 (0) 7351 441564
+					<a href="fax:+497351441564">
+						+49 (0) 7351 441564
+					</a>
 				</dd>
 				<dt class="definition__attribute">
 					E-Mail

@@ -13,6 +13,7 @@
 
 		&s {
 			display: flex;
+			justify-content: flex-end;
 			list-style: none;
 			margin: 0;
 			padding: 0;
@@ -22,5 +23,10 @@
 	&__link {
 		padding: $padding;
 		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+			text-underline-offset: 1em;
+		}
 	}
 }

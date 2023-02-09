@@ -19,14 +19,14 @@
 
 :root {
   --color-highlight: hsl(30deg, 90%, 55%);
-  --color-primary: hsl(30deg, 2%, 95%);
+  --color-primary: hsl(30deg, 2%, 5%);
   --color-secondary: hsl(30deg, 2%, 50%);
   --color-background: hsl(30deg, 2%, 85%);
   --color-background--transparent: transparentize(hsl(30deg, 2%, 85%), 0.5);
   --color-background--light: hsl(30deg, 2%, 95%);
   --color-text: hsl(30deg, 2%, 5%);
   --color-text--blazed: hsl(30deg, 2%, 15%);
-  --color-text--highlighted: hsl(30deg, 2%, 95%);
+  --color-text--highlighted: hsl(30deg, 2%, 5%);
   --color-text--muted: hsl(30deg, 2%, 50%);
   --color-text--error: hsl(348deg, 75%, 55%);
   --color-border: hsl(30deg, 2%, 85%);
@@ -35,24 +35,26 @@
 
 :root {
   --layout-column-count: $layout-column-count;
-} /* Roboto Slab Medium */
+}
+
+/* Roboto Slab Medium */
 @font-face {
   font-family: "Roboto Slab";
-  src: url(packages/custom/moviate/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf) format("truetype");
+  src: url("../lib/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 /* Roboto Slab Regular */
 @font-face {
   font-family: "Roboto Slab";
-  src: url(packages/custom/moviate/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf) format("truetype");
+  src: url("../lib/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 /* Roboto Slab Light */
 @font-face {
   font-family: "Roboto Slab";
-  src: url(packages/custom/moviate/fonts/Roboto_Slab/static/RobotoSlab-Light.ttf) format("truetype");
+  src: url("../lib/fonts/Roboto_Slab/static/RobotoSlab-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -79,10 +81,14 @@ body {
 a,
 .link {
   color: var(--color-text--blazed);
+  text-decoration-thickness: 0.5px;
+  text-underline-color: var(--color-text--blazed);
+  text-underline-offset: 0.2em;
 }
 a:hover,
 .link:hover {
   color: var(--color-text--highlighted);
+  text-decoration-thickness: 1px;
 }
 
 .icon {
@@ -124,6 +130,15 @@ a:hover,
   flex-basis: calc((92vw - 13px) * 3 + 2px);
   padding: 4vw 2vw;
 }
+.header__logo {
+  transform: translateY(-2em);
+}
+.header__link {
+  display: block;
+  height: 1em;
+  overflow: visible;
+  position: relative;
+}
 .header__title {
   font-size: 4rem;
   font-weight: 300;
@@ -147,6 +162,7 @@ a:hover,
 }
 .navigation__items {
   display: flex;
+  justify-content: flex-end;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -154,6 +170,10 @@ a:hover,
 .navigation__link {
   padding: 2vw;
   text-decoration: none;
+}
+.navigation__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 1em;
 }
 
 .main {
@@ -193,6 +213,7 @@ a:hover,
 
 .box {
   background-color: var(--color-background--light);
+  font-size: 0.75rem;
   padding: 2vw;
 }
 .box__title {

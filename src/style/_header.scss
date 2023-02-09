@@ -10,11 +10,15 @@
 	padding: $padding--large $padding;
 
 	&__logo {
-
+		transform: translateY(-2em);
+		//width: 100%;
 	}
 
 	&__link {
-
+		display: block;
+		height: 1em;
+		overflow: visible;
+		position: relative;
 	}
 
 	&__title {
