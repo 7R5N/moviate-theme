@@ -11,6 +11,10 @@
 
 	&__item {
 
+		&--current {
+			color: var(--color-highlight);
+		}
+
 		&s {
 			display: flex;
 			justify-content: flex-end;
@@ -21,6 +25,7 @@
 	}
 
 	&__link {
+		color: inherit;
 		padding: $padding;
 		text-decoration: none;
 

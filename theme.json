@@ -16,7 +16,15 @@
   "tooltips": {
     "+main": "The main content of the page",
     "brand": "In case there is no logo defined, this field can be used for any kind of markup like HTML or SVG to serve as the brand of the site",
+    "checkboxHideTitle": "Hide the page title",
+    "checkboxShowInFooter": "Show a link to this page in the footer menu",
+    "checkboxShowInNavbar": "Show a link to this page in the main navbar",
+    "imageAppleTouchIcon": "The image to be used as the Apple touch icon",
+    "imageFavicon": "The icon to be used as favicon",
+    "imageTeaser": "The filename or glob pattern for the image to be used as the teaser image in a pagelist",
     "imageLogo": "The logo image",
-    "logoHeight": "The height of your logo"
+    "logoHeight": "The height of your logo",
+    "metaDescription": "An optional meta description to be used for Twitter, Facebook or similar social network cards",
+    "metaTitle": "An optional meta title to be used for the browser title bar and links used on Twitter, Facebook or similar social networks"
   }
 }

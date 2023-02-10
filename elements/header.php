@@ -1,5 +1,6 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
 
+
 <header class="header">
 
 	<a href="/" class="header__link">
