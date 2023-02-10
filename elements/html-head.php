@@ -1,3 +1,6 @@
+<?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
+
+
 <?php
 	$themeRoot = dirname(__DIR__, 1);
 	$composer_json = file_get_contents($themeRoot . '/composer.json');
@@ -17,7 +20,10 @@
         <meta name="keywords" content="">
         <meta name="author" content="Lars Fuchs, Düsseldorf, Germany">
 
-        <title> Moviate – alles was zwei Räder hat </title>
+		<@ html-metatags.php @>
+		<@ html-favicons.php @>
+
+		<title>@{ metaTitle | def('@{ sitename } / @{ title | def ("404") }') }</title>
         <link href="favicon.svg" rel="icon" type="image/svg+xml">
         <link href="favicon.ico" rel="alternate icon">
         <link href="safari-pinned-tab.svg" rel="mask-icon" color="#5bbad5">
