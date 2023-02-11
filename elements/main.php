@@ -3,8 +3,16 @@
 
 <main class="main">
 
-	<@ title.php @>
+	<section class="main__hero">
+		@{ +hero }
+	</section>
 
-	@{ +main }
+	<section class="main__title">
+		<@ title.php @>
+	</section>
+
+	<section class="main__content">
+		@{ +main }
+	</section>
 
 </main>

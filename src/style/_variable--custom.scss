@@ -24,8 +24,8 @@ $white--light:                 hsl(30, 2%, 100%);
 $color-primary:                $black;
 //$color-secondary:            $grey !default;
 
-$color-background:             $white--dark;
-$color-background--light:      $white;
+$color-background:             $white;
+$color-background--light:      $white--light;
 
 $color-text:                   $black;
 $color-text--blazed:           $black--light;

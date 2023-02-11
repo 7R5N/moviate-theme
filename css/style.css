@@ -3,10 +3,10 @@
  *
  * The Styles
  */
-.box, .main, .article__header {
+.box, .main__content, .main__title, .main__hero, .article__header {
   position: relative;
 }
-.box::after, .main::after, .article__header::after {
+.box::after, .main__content::after, .main__title::after, .main__hero::after, .article__header::after {
   bottom: 0;
   box-shadow: 0 12px 24px -12px rgba(13, 13, 12, 0.125);
   content: "";
@@ -21,9 +21,9 @@
   --color-highlight: hsl(30deg, 90%, 55%);
   --color-primary: hsl(30deg, 2%, 5%);
   --color-secondary: hsl(30deg, 2%, 50%);
-  --color-background: hsl(30deg, 2%, 85%);
-  --color-background--transparent: transparentize(hsl(30deg, 2%, 85%), 0.5);
-  --color-background--light: hsl(30deg, 2%, 95%);
+  --color-background: hsl(30deg, 2%, 95%);
+  --color-background--transparent: transparentize(hsl(30deg, 2%, 95%), 0.5);
+  --color-background--light: hsl(30deg, 2%, 100%);
   --color-text: hsl(30deg, 2%, 5%);
   --color-text--blazed: hsl(30deg, 2%, 15%);
   --color-text--highlighted: hsl(30deg, 2%, 5%);
@@ -185,8 +185,25 @@ a:hover,
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
   flex-basis: calc((92vw - 13px) * 9 + 8px);
+  gap: 1px;
   order: 2;
+}
+.main__hero {
+  background-color: var(--color-background--light);
+  position: relative;
+}
+.main__hero img {
+  display: block;
+  max-width: 100%;
+}
+.main__title {
+  background-color: var(--color-background--light);
+  padding: 2vw;
+}
+.main__content {
   background-color: var(--color-background--light);
   padding: 2vw;
 }

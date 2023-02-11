@@ -6,11 +6,35 @@
 
 
 .main {
+	display: flex;
+	flex-direction: column;
 	flex-basis: calc(($grid-column-width * 9) + ($grid-gap * 8));
+	gap: $grid-gap;
 	order: 2;
 
-	// Test Area
-	@extend %shadow;
-	background-color: var(--color-background--light);
-	padding: $padding;
+
+	&__hero {
+		@extend %shadow;
+		background-color: var(--color-background--light);
+		position: relative;
+
+		img {
+			display: block;
+			max-width: 100%;
+		}
+	}
+
+
+	&__title {
+		@extend %shadow;
+		background-color: var(--color-background--light);
+		padding: $padding;
+	}
+
+
+	&__content {
+		@extend %shadow;
+		background-color: var(--color-background--light);
+		padding: $padding;
+	}
 }

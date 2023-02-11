@@ -16,13 +16,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="language" content="de">
         <meta name="theme-color" content="#36455d">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+        <meta name="description" content="@{ metaDescription }">
+        <meta name="keywords" content="@{ metaKeywords }">
         <meta name="author" content="Lars Fuchs, Düsseldorf, Germany">
-
-		<@ html-metatags.php @>
-		<@ html-favicons.php @>
-
 		<title>@{ metaTitle | def('@{ sitename } / @{ title | def ("404") }') }</title>
         <link href="favicon.svg" rel="icon" type="image/svg+xml">
         <link href="favicon.ico" rel="alternate icon">
