@@ -5,13 +5,13 @@
 //
 
 
-.definition {
+.description {
 	display: grid;
 	gap: $margin--small;
 	grid-template-columns: 2fr 3fr;
 	margin: $margin--small 0;
 
-	&__attribute {
+	&__name {
 
 	}
 

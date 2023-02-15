@@ -12,15 +12,15 @@
     "shared": [
       "+main",
       "+hero",
-      "+boxContact",
-      "+boxHours"
+      "+contact",
+      "+hours"
     ]
   },
   "tooltips": {
     "+main": "The main content of the page",
     "+hero": "The main image/teaser of the page",
-    "+boxContact": "Contact information",
-    "+boxHours": "Opening hours information",
+    "+contact": "Contact information",
+    "+hours": "Opening hours information",
     "brand": "In case there is no logo defined, this field can be used for any kind of markup like HTML or SVG to serve as the brand of the site",
     "checkboxHideTitle": "Hide the page title",
     "checkboxShowInFooter": "Show a link to this page in the footer menu",

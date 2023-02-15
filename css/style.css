@@ -247,13 +247,13 @@ a:hover,
   margin: 0;
 }
 
-.definition {
+.description {
   display: grid;
   gap: 1vw;
   grid-template-columns: 2fr 3fr;
   margin: 1vw 0;
 }
-.definition__value {
+.description__value {
   margin-left: 0;
 }
 
