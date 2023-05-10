@@ -11,6 +11,7 @@
     ],
     "shared": [
       "+main",
+      "+aside",
       "+hero",
       "+contact",
       "+hours"
@@ -18,6 +19,7 @@
   },
   "tooltips": {
     "+main": "The main content of the page",
+    "+aside": "The side content of the page",
     "+hero": "The main image/teaser of the page",
     "+contact": "Contact information",
     "+hours": "Opening hours information",
