@@ -7,10 +7,17 @@
     "authors": [
       {
         "name": "Lars Fuchs",
-        "country": "Germany"
+        "email": "larsen@emmelmann.de",
+        "homepage": "https://larsen.emmelmann.de",
+        "role": "Developer"
       }
     ],
     "require": {
-        "automad/package-installer": "^1.1 || dev-master"
+        "automad/package-installer": "^1.1.2 || dev-master"
+    },
+    "config": {
+        "allow-plugins": {
+            "automad/package-installer": true
+        }
     }
 }
